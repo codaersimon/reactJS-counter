@@ -1,3 +1,7 @@
+body{
+  background: #2c2c2c;
+  font-family:Arial, Helvetica, sans-serif
+}
 .App {
   display: flex;
   flex-direction: column;
@@ -9,13 +13,19 @@
   margin-top: 25vh;
 }
 .box{
+  background: #f5f4f4;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px 4px rgb(27, 27, 27);
   padding: 50px;
-  border: 1px solid #000;
-  width: 25%;
+  width: 40%;
 }
-
+.buttons{
+  display: flex;
+  justify-content: space-between
+}
 .add{
   background: transparent;
+  border-radius: 5px;
   height: 100px;
   width: 100px;
   font-size: 40px;
@@ -23,20 +33,20 @@
 
 .sub{
   background: transparent;
+  border-radius: 5px;
   height: 100px;
   width: 100px;
   font-size: 40px;
 }
-
-span{
-  margin: 50px;
+.numb{
   font-size: 40px;
 }
 
 .reset{
   background: transparent;
+  border-radius: 5px;
   height: 100px;
-  width: 350px;
-  margin-top: 25px;
-  font-size: 40px;
+  width: 577px;
+  margin-top: 30px;
+  font-size: 20px;
 }

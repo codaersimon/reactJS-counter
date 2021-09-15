@@ -18,10 +18,12 @@ class Counter extends React.Component {
         console.log(this.state)
         return ( <div className="container">
                 <section className="box">
+                    <div className="buttons">
                     <button className="sub" onClick={this.substract}>-</button>
-                    <span> {this.state.counter} </span>
+                    <div className="numb"> {this.state.counter} </div>
                     <button className="add" onClick={this.add}>+</button>
-                    <button className="reset" onClick={this.reset}>Reset</button>
+                    </div>
+                    <button className="reset" onClick={this.reset}>RESET</button>
             </section>
         </div>);
     }
